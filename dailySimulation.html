@@ -12,7 +12,29 @@
   <script>
     const output = document.getElementById("output");
     
-    # ADD CODE HERE
+    const schedule = [
+  { time: "07:00 AM", activity: "🌅 Wake up & eat breakfast" },
+  { time: "09:00 AM", activity: "🏋️ Workout session" },
+  { time: "12:30 PM", activity: "🌮 Lunch Break" },
+  { time: "03:00 PM", activity: "🎨 Digital illustration & sketching" },
+  { time: "06:00 PM", activity: "👾 Playing video games" },
+  { time: "08:00 PM", activity: "💻 Productivity: Video editng" },
+  { time: "10:00 PM", activity: "😴 Sleeping after hygene" }
+];
+
+let currentIndex = 0;
+
+function updateSchedule() {
+  const current = schedule[currentIndex];
+  output.innerHTML = `
+    <strong style="color: #4A90E2;">${current.time}</strong><br>
+    <span>${current.activity}</span>
+  `;
+  currentIndex = (currentIndex + 1) % schedule.length;
+}
+updateSchedule();
+
+setInterval(updateSchedule, 3000);
 
   </script>
 

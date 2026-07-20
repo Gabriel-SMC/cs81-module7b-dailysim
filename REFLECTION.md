@@ -1,4 +1,4 @@
-I chose my activities inspired my interests. What made them personal for me is how the randomizer has the mood selected on certain activities, and how they reflect myself.
+I chose my activities inspired by my interests. What made them personal for me is how the randomizer has the mood selected on certain activities, and how they reflect myself.
 
 I was surprised with how effective the timer is. I initially had trouble settling on the speed between the activities and moods before eventually finding the right amount to ensure they are readable.
 
